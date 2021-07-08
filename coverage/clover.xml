@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1625716010124" clover="3.2.0">
-  <project timestamp="1625716010124" name="All files">
+<coverage generated="1625773047942" clover="3.2.0">
+  <project timestamp="1625773047942" name="All files">
     <metrics statements="30" coveredstatements="30" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="31" coveredelements="31" complexity="0" loc="30" ncloc="30" packages="3" files="4" classes="4"/>
     <package name="app">
       <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="app.js" path="/Users/diegomieth/Desktop/githubLanguageReposSearcher/app/app.js">
+      <file name="app.js" path="/Users/diegomieth/Desktop/gitHubSearcherReset/app/app.js">
         <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="2" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
@@ -26,7 +26,7 @@
     </package>
     <package name="app.controllers">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="pageCtrl.js" path="/Users/diegomieth/Desktop/githubLanguageReposSearcher/app/controllers/pageCtrl.js">
+      <file name="pageCtrl.js" path="/Users/diegomieth/Desktop/gitHubSearcherReset/app/controllers/pageCtrl.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="11" count="2" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
@@ -34,7 +34,7 @@
     </package>
     <package name="app.routers">
       <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="pageRouter.js" path="/Users/diegomieth/Desktop/githubLanguageReposSearcher/app/routers/pageRouter.js">
+      <file name="pageRouter.js" path="/Users/diegomieth/Desktop/gitHubSearcherReset/app/routers/pageRouter.js">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="4" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
@@ -42,7 +42,7 @@
         <line num="10" count="2" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
       </file>
-      <file name="servicesRouter.js" path="/Users/diegomieth/Desktop/githubLanguageReposSearcher/app/routers/servicesRouter.js">
+      <file name="servicesRouter.js" path="/Users/diegomieth/Desktop/gitHubSearcherReset/app/routers/servicesRouter.js">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="4" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>

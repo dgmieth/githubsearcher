@@ -90,7 +90,7 @@ class UICtrl {
             document.getElementById(this.content.mainContent).innerHTML = `
             <div class="container-fluid mx-auto my-auto h-100 w-100">
                 <div class="row h-100 h-100 mx-auto my-auto align-items-center">
-                    <div class="col-12">
+                    <div class="col-12" style="overflow-y:auto">
                         <div class="h3">Please select 5 languages to execute a query in GitHub</div>
                         <div class="h3"><i style="font-size:2rem">or</i></div>
                         <div class="h3">Select one search from the history sidebar to show its results</div>
