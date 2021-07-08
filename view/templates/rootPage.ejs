@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repos Searcher</title>
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="/css/rootPage/rootPage.css">
+</head>
+<body>
+    <div id="spinnerMainWrapper" class=".container-fluid mx-auto my-auto text-center w-100 h-100" style="display: block;">
+        <div class="row h-100 h-100 mx-auto my-auto align-items-center">
+            <div class="col-12">
+                <img src="/img/spinner.gif" alt="spinner" height="250px" width="250px">
+            </div>
+        </div>
+    </div>
+<main id="main" class=".container-fluid mx-auto my-auto text-center w-100 h-100" style="display: none;">
+    <div id="content" class=".container-fluid h-100 w-100 mx-auto my-auto text-center">
+        <!--=================================================================================================================-->
+        <!-- MODAL -->
+        <%- include('partials/modal.ejs') %>
+        <!--=================================================================================================================-->
+        <!-- ALERT -->
+        <%- include('partials/alert.ejs') %>
+        <!--=================================================================================================================-->
+        <!-- SEARCH SIDEBAR -->
+        <%- include('partials/searchSideBar.ejs') %>
+        <%- include('partials/historySideBar.ejs') %>
+        <style>
+            #mainContent {
+                padding-left: 100px!important;
+                z-index: 5;
+            }
+        </style>
+        <div id="mainContentSpinner" class="container-fluid h-100 mx-auto my-auto text-center" style="display: none;">
+            <div class="row h-100 h-100 mx-auto my-auto align-items-center">
+                <div class="col-12">
+                    <img src="/img/spinner.gif" alt="spinner" height="250px" width="250px">
+                </div>
+            </div>
+        </div>
+        <div id="mainContent" class="container-fluid h-100 mx-auto my-auto text-center" style="display: block;">
+
+        </div>
+    </div>
+</main>
+</body>
+<!-- BOOSTRAP JS -->
+<script src="/js/bootstrap/jquery.min.js" type="text/javascript"></script>
+<script src="/js/bootstrap/popper.min.js" type="text/javascript"></script>
+<script src="/js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+<!-- BOOSTRAP JS -->
+<script src="/js/rootPage/appCtrl.js"></script>
+<script src="/js/rootPage/dataCtrl.js"></script>
+<script src="/js/rootPage/uiCtrl.js"></script>
+<script src="/js/rootPage/main.js"></script>
+</html>

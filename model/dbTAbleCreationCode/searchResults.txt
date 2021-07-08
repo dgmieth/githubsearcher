@@ -1,0 +1,22 @@
+CREATE TABLE z9pxiTKFi5.searchResults (
+	resultId BIGINT(11) NOT NULL,
+	id BIGINT(22) NOT NULL,
+	name varchar(250) NOT NULL,
+	fullName varchar(500) NOT NULL,
+	ownerId BIGINT(22) NULL,
+	onwerName varchar(500) NULL,
+	ownerAvatar varchar(500) NULL,
+	onwerHomeUrl varchar(500) NULL,
+	onwerType varchar(100) NULL,
+	repoUrl varchar(150) NOT NULL,
+	createdAt TIMESTAMP NOT NULL,
+	updatedAt TIMESTAMP NOT NULL,
+	gitUrl varchar(500) NOT NULL,
+	homePage varchar(500) NULL,
+	watchers bigInt(22) NOT NULL,
+	`language` varchar(100) NOT NULL,
+	openIssues BIGINT(11) NOT NULL
+)
+ENGINE=InnoDB
+DEFAULT CHARSET=utf8
+COLLATE=utf8_unicode_ci;

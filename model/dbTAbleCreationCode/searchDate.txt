@@ -1,0 +1,8 @@
+CREATE TABLE z9pxiTKFi5.searchDate (
+	id BIGINT(11) NOT NULL,
+	searchDate TIMESTAMP DEFAULT current_TIMESTAMP NOT NULL,
+	languages varchar(250) NOT NULL
+)
+ENGINE=InnoDB
+DEFAULT CHARSET=utf8
+COLLATE=utf8_unicode_ci;

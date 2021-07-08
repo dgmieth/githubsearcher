@@ -1,0 +1,40 @@
+{
+  "name": "githublanguagerepossearcher",
+  "version": "1.0.0",
+  "description": "Execute queries using GitHub API to retrieve trending repos from selected languages. ",
+  "main": "/app/server.js",
+  "scripts": {
+    "start": "node app/server.js",
+    "runApp": "node app/server.js",
+    "starApp": "node app/server.js",
+    "runTests": "npx jest --testPathPattern=app/test/integration"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgmieth/githublanguagerepossearcher.git"
+  },
+  "keywords": [
+    "GitHub",
+    "LangugeSearcher"
+  ],
+  "author": "Diego Rafael Mieth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgmieth/githublanguagerepossearcher/issues"
+  },
+  "homepage": "https://github.com/dgmieth/githublanguagerepossearcher#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap-icons": "^1.5.0",
+    "cookie-parser": "^1.4.5",
+    "custom-env": "^2.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.3"
+  }
+}

@@ -1,0 +1,36 @@
+<div id="searchSideBar" class="my-auto mx-auto text-center h-100" >
+    <div id="toggleBtn" class="toggle-btn .container-fluid mx-auto my-auto text-center" onclick="appCtrl.toggleSidebar(this,uiCtrl)" style="height: 5%!important;">
+        <span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+        </span>
+    </div>
+    <div id="title" class=".container-fluid w-100 my-auto mx-auto text-center" style="height: 10%!important;">
+        <div class="d-flex align-items-center bd-highlight h-100 w-50 mx-auto">
+            <div class="box">Choose 5 languages</div>
+        </div>
+    </div>  
+    <div class=".container-fluid" style="height: 5%!important;"></div>
+    <div class="list" style="overflow-y: auto;height:50%!important;">
+        <%- include('./languageItems.ejs') %>
+    </div>
+    <div class=".container-fluid" style="height: 5%!important;"></div>
+    <div id="reposPerPage" class="mx-auto my-auto text-center" style="height: 15%!important;">
+        <div class="d-flex align-items-center bd-highlight h-50 w-100 mx-auto">
+            <div class="box">Number of repos per language</div>
+        </div>
+        <select name="repos" id="repos">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+    </div>
+    <div class=".container-fluid" style="height: 5%!important;"></div>
+    <div id="searchBtnWrapper" class=".container-fluid mx-auto my-auto text-center" style="height: 10%!important;bottom: 0;">
+        <button id="searchBtn" class="btn btn-secondary" disabled>Chose 5 languages</button>
+    </div>
+</div>

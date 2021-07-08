@@ -1,0 +1,153 @@
+/*HTML, BODY, MAIN*/
+html,body,main {
+  height: 100%!important;
+}
+
+/*sidebars*/
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  font-family:sans-serif;
+} 
+#searchSideBar {
+  position:absolute;
+  bottom:0;
+  left:-150px;
+  width:200px;
+  height:92%;
+  background:#1565c0;
+  transition: all 300ms linear;
+  z-index: 10;
+}
+#searchSideBar #title {
+    color: white;
+}
+#searchSideBar #reposPerPage .d-flex .box {
+  color: white;
+}
+#searchSideBar .list  button, #searchSideBar div p, #searchSideBar #title, #searchSideBar #reposPerPage, #searchSideBar #searchBtnWrapper  {
+    display: none;
+    transition: display 2s linear;
+}
+#searchSideBar:hover {
+  left:0px;
+}
+#searchSideBar:hover .list  button, #searchSideBar:hover div p, #searchSideBar:hover #title, #searchSideBar:hover #reposPerPage, #searchSideBar:hover #searchBtnWrapper {
+  display: block;
+  transition: display 1s linear;
+}
+.active{
+  font-weight: 900;
+  font-size: 1rem!important;
+  color: white;
+  font-style: italic;
+}
+.disabled {
+  color: gray!important;
+}
+#searchSideBar .toggle-btn {
+  position:absolute;
+  left:160px;
+  top:10px;
+  transition: display 1s;
+  transition: left 400ms linear;
+}
+#searchSideBar:hover .toggle-btn{
+  left: 10px;
+  transition: left 500ms linear;
+}
+#searchSideBar .toggle-btn span {
+  display:block;
+  width:30px;
+  height:30px;
+  color: white;
+  margin:5px 0px;
+  /*cursor:pointer;*/
+}
+#searchSideBar div.list div.item, #searchSideBar button.item {
+  padding:10px 10px;
+  border-bottom:1px solid #90caf9;
+  font-size: 0.8rem;
+  color:#fcfcfc;
+  text-transform:uppercase;
+  font-size:0.8rem;
+}
+#searchSideBar div.list button.item {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #90caf9;
+  width: 100%;    
+  color:#e3f2fd;
+}
+#searchSideBar div.list button.item:hover{
+    font-weight: 900;
+}
+/*===================================================================*/
+/*===================================================================*/
+/*===================================================================*/
+/*historySideBar-options*/
+#historySideBar {
+  position:absolute;
+  bottom:0;
+  left:-100px;
+  width:200px;
+  height:92%;
+  background:#42a5f5;
+  transition: all 300ms linear;
+  z-index: 9;
+}
+#historySideBar #historyTitle {
+    color: black;
+}
+#historySideBar .list  button, #historySideBar div p, #historySideBar #historyTitle {
+    display: none;
+    transition: display 2s linear;
+}
+#historySideBar:hover {
+  left:50px;
+}
+#searchSideBar:hover ~ #historySideBar {
+  left:50px;
+}
+#historySideBar:hover .list  button, #historySideBar:hover div p, #historySideBar:hover #historyTitle {
+  display: block;
+  transition: display 1s linear;
+}
+#historySideBar .toggle-btn {
+  position:absolute;
+  left:160px;
+  top:10px;
+  transition: display 1s;
+  transition: left 400ms linear;
+}
+/*#historySideBar.active .toggle-btn{
+    left: 10px;
+    transition: left 500ms linear;
+}*/
+#historySideBar:hover .toggle-btn{
+  left: 10px;
+  transition: left 500ms linear;
+}
+#historySideBar .toggle-btn span {
+  display:block;
+  width:30px;
+  height:30px;
+  color: white;
+  margin:5px 0px;
+  /*cursor:pointer;*/
+}
+#historySideBar div.list div.item, button.item {
+  padding:0px 10px;
+  border-bottom:1px solid #2979ff;
+  color:black;
+}
+#historySideBar div.list button.item {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #2979ff;
+  width: 100%;    
+}
+#historySideBar div.list button.item:hover{
+    font-weight: 900;
+}
